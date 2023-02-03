@@ -19,7 +19,7 @@
     <script id="etsy-card-template" type="text/x-handlebars-template">
       {{#each results}}
         <!-- <div class="row row-cols-1 row-cols-md-2 g-4"> -->
-        <div class="col">
+        <div class="col col-md-3">
           <div class="card mt-5">
             <img
               src={{Images.0.url_fullxfull}}
@@ -31,7 +31,6 @@
               <p class="card-text">{{price}}</p>
             </div>
           </div>
-          {{Images.0.url_75x75}}
         </div>
         <!-- </div> -->
       {{/each}}
